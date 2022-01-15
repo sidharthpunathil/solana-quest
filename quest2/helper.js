@@ -1,7 +1,7 @@
 const { airDropSol } = require("./solana")
 
 function randomNumber(min, max) {
-    return Math.random() * (max - min) + min;
+return Math.floor(Math.random() * (max - min + 1) + min);   
 }
 
 function totalAmtTobePaid(amount) {
