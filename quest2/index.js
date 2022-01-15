@@ -8,8 +8,8 @@ const prompt = ps({sigint: true});
 
 // Generating Wallet
 
-const userWallet2=web3.Keypair.generate();
-console.log(userWallet2);
+// const userWallet2=web3.Keypair.generate();
+// console.log(userWallet2);
 
 const treasury = [
     97,  85, 105,  34, 167,  82, 138, 121, 114, 160,  24,
